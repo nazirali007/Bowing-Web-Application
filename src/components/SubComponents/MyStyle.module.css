@@ -1,0 +1,20 @@
+.cartProfile{
+    display: flex;
+}
+
+.cartProfile li {
+  border-radius: 8px;
+  margin-right: 3rem;
+  padding-right: 1rem;
+  padding: 0.5rem;
+  list-style-type: none;
+  /* border: ; */
+}
+.cartProfile li:hover {
+  background-color: grey;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.cartProfile ul {
+  border: grey;
+}

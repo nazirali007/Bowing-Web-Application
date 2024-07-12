@@ -1,0 +1,56 @@
+/* .leaqueTable {
+} */
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(99, 99, 99, 0.908);
+  height: 4rem;
+}
+.tableButton {
+  border: none;
+  background-color: rgb(133, 219, 72);
+  margin: 0 2% 0 0;
+  padding: 1% 2% 1% 2%;
+  border-radius: 8px;
+  color: white;
+}
+.headerLeft {
+  color: white;
+  margin: 0 0 0 2%;
+  font-size: 1.3rem;
+}
+.headerspanTag {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 28.12rem;
+  background-color: rgb(29, 29, 29);
+}
+.tableContainer {
+  background-color: rgb(29, 29, 29);
+  width: 95%;
+  margin: 0 2.5%;
+  /* height: 450px; */
+  color: white;
+  /* overflow: scroll; */
+}
+.tableContainer thead {
+  font-size: 1.1em;
+  height: 60px !important;
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.tableContainer tbody {
+  font-size: 1em;
+  padding: 10px 0%;
+}
+
+.tablebody td {
+  height: auto;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
